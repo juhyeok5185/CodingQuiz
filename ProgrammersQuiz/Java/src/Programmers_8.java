@@ -1,5 +1,3 @@
-import javax.lang.model.util.ElementScanner14;
-
 public class Programmers_8 {
     // 각에서 0도 초과 90도 미만은 예각,
     // 90도는 직각, 90도 초과 180도 미만은 둔각
