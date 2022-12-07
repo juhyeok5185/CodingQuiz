@@ -9,11 +9,16 @@ public class Programmers_23 {
     // 순서대로 담은 배열을 return 하도록 solution 함수를 완성해보세요.
 
     public static void main(String[] args) {
-
+        Programmers_23 pro = new Programmers_23();
+        pro.solution(30000);
     }
 
     public int[] solution(int money) {
-        int[] answer = {};
+        int[] answer = new int[2];
+        answer[0] = money / 5500;
+        answer[1] = money - answer[0] * 5500;
+        System.out.println(answer[0]);
+        System.out.println(answer[1]);
         return answer;
     }
 }
