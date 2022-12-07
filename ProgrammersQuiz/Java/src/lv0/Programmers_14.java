@@ -1,3 +1,4 @@
+
 public class Programmers_14 {
 
     // 정수가 담긴 배열 array와 정수 n이 매개변수로 주어질 때,

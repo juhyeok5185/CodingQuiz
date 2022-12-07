@@ -1,3 +1,4 @@
+
 public class Programmers_16 {
     // 정수가 담긴 리스트 num_list가 주어질 때,
     // num_list의 원소 중 짝수와 홀수의 개수를

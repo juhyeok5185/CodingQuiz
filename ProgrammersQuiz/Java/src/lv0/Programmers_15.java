@@ -1,3 +1,4 @@
+
 public class Programmers_15 {
 
     // 머쓱이네 피자가게는 피자를 일곱 조각으로 잘라 줍니다.

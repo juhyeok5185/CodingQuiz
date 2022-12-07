@@ -1,3 +1,4 @@
+
 public class Programmers_13 {
 
     // 머쓱이는 학교에서 키 순으로 줄을 설 때

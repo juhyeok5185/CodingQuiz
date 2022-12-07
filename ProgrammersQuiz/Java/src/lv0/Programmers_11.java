@@ -1,3 +1,4 @@
+
 public class Programmers_11 {
 
     // 정수 배열 numbers가 매개변수로 주어집니다.

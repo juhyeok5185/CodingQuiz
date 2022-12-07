@@ -1,3 +1,4 @@
+
 public class Programmers_20 {
 
     // 문자열 배열 strlist가 매개변수로 주어집니다.

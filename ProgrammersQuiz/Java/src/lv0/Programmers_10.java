@@ -1,3 +1,4 @@
+
 public class Programmers_10 {
 
     // 머쓱이네 양꼬치 가게는 10인분을 먹으면

@@ -1,3 +1,4 @@
+
 public class Programmers_12 {
 
     // 정수 n이 주어질 때, n이하의 짝수를
