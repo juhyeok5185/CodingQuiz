@@ -14,9 +14,11 @@ public class Programmers_29 {
     public String solution(String my_string, int n) {
         String answer = "";
         for (int i = 0; i < my_string.length(); i++) {
-            answer = my_string.repeat(3);
+            char myChar = my_string.charAt(i);
+            for (int j = 0; j < n; j++) {
+                answer += myChar;
+            }
         }
-        System.out.println(answer);
         return answer;
     }
 }
