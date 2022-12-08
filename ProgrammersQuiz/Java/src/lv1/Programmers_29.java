@@ -15,10 +15,11 @@ public class Programmers_29 {
         String answer = "";
         for (int i = 0; i < my_string.length(); i++) {
             char myChar = my_string.charAt(i);
-            for (int j = 0; j < n; j++) {
+            for (int j = 0; j < n - 1; j++) {
                 answer += myChar;
             }
         }
+        System.out.println(answer);
         return answer;
     }
 }
