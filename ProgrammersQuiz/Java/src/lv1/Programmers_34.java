@@ -9,19 +9,16 @@ public class Programmers_34 {
 
     public static void main(String[] args) {
         Programmers_34 pro = new Programmers_34();
-        pro.solution(100);
+        pro.solution(200);
     }
 
     public int solution(int n) {
         int answer = 0;
-        for (int i = 0; i < n + 1; i++) {
-            for (int j = 0; j < n + 1; j++) {
-                if (i * j == n) {
-                    answer++;
-                }
+        for (int i = 1; i <= n; i++) {
+            if (n % i == 0) {
+                answer++;
             }
         }
-        System.out.println(answer);
         return answer;
     }
 }
