@@ -16,17 +16,13 @@ public class Programmers_37 {
 
     public int solution(int price) {
         float answer = price;
-
-        if (price > 100000 && price < 300000) {
-            answer = price - (int) price * 0.05f;
+        if (price >= 100000 && price < 300000) {
+            answer *= 0.95f;
         } else if (price >= 300000 && price < 500000) {
-            answer = price * 0.1f;
+            answer *= 0.9f;
         } else if (price >= 500000) {
-            answer = price * 0.2f;
-        } else {
-            answer = price;
+            answer *= 0.80f;
         }
-        System.out.println(answer);
         return (int) answer;
     }
 }
