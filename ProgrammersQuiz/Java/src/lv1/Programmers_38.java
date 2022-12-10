@@ -7,11 +7,11 @@ public class Programmers_38 {
     // return하도록 solution 함수를 완성해주세요.
 
     public static void main(String[] args) {
-
+        Programmers_38 pro = new Programmers_38();
+        pro.solution("qqqqppp", "pppkkkk");
     }
 
     public int solution(String str1, String str2) {
-        int answer = 0;
-        return answer;
+        return str1.contains(str2) ? 1 : 2;
     }
 }
