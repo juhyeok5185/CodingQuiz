@@ -7,11 +7,19 @@ public class Programmers_44 {
     // 문자열을 return하도록 solution 함수를 완성해주세요.
 
     public static void main(String[] args) {
-
+        Programmers_44 pro = new Programmers_44();
+        pro.solution("aaaAAABBBbbb");
     }
 
     public String solution(String my_string) {
         String answer = "";
+        for (int i = 0; i < my_string.length(); i++) {
+            if (Character.isUpperCase(my_string.charAt(i))) {
+                answer += Character.toLowerCase(my_string.charAt(i));
+            } else {
+                answer += Character.toUpperCase(my_string.charAt(i));
+            }
+        }
         return answer;
     }
 }
