@@ -1,6 +1,7 @@
 package lv2;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Programmers_46 {
 
@@ -22,7 +23,7 @@ public class Programmers_46 {
             }
             answer.add(numlist[i]);
         }
-        answer
-        return answer;
+        int[] result = answer.stream().toArray(result[10]);
+        return result;
     }
 }
