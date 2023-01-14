@@ -20,7 +20,6 @@ public class Programmers_58 {
             }
             i++;
         }
-        System.out.println(answer);
         return answer;
     }
 }
