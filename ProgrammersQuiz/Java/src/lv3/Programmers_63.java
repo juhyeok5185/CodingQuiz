@@ -1,3 +1,5 @@
+package lv3;
+
 public class Programmers_63 {
     // 머쓱이는 친구들과 369게임을 하고 있습니다.
     // 369게임은 1부터 숫자를 하나씩 대며 3, 6, 9가
